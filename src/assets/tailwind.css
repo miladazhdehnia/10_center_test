@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@responsive {
+  .col-count-1 {
+    column-count: 1;
+  }
+  .col-count-2 {
+    column-count: 2;
+  }
+  .col-count-3 {
+    column-count: 3;
+  }
+  .col-count-4 {
+    column-count: 4;
+  }
+  .masonry-layout {
+    column-gap: 2rem;
+    text-align: right;
+    text-align: -webkit-right;
+  }
+}

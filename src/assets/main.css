@@ -1,0 +1,27 @@
+html,
+body,
+#app {
+  height: 100%;
+  overflow-x: hidden;
+}
+.masonry-layout-col {
+  break-inside: avoid;
+  /* padding: 5px; */
+}
+.masonry-layout-col:nth-child {
+}
+.masonry-layout-content {
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+.masonry-layout-content img {
+  margin-bottom: 1.5rem;
+}
+.masonry-layout img {
+  max-height: 400px;
+}
+.step1-input {
+  top: -12px;
+  left: 1rem;
+  background-color: white;
+}
